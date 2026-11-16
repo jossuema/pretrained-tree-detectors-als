@@ -1,0 +1,1968 @@
+{
+ "settings": {
+  "tolerance": 3.5,
+  "bootstrap": 2000,
+  "chance_replicates": 200,
+  "seed": 0
+ },
+ "per_plot": {
+  "cham/1": {
+   "site": "Chamrousse",
+   "area_m2": 2449.7,
+   "trees": 92,
+   "stems_per_ha": 376,
+   "returns_per_m2": 40.3,
+   "nearest_stem_m": 2.3,
+   "SAT": {
+    "recall": 0.543,
+    "precision": 0.625,
+    "f1": 0.581,
+    "detections": 80,
+    "chance_recall": 0.481
+   },
+   "AMS3D": {
+    "recall": 0.587,
+    "precision": 0.659,
+    "f1": 0.621,
+    "detections": 82,
+    "chance_recall": 0.494
+   },
+   "FF3D": {
+    "recall": 0.315,
+    "precision": 0.518,
+    "f1": 0.392,
+    "detections": 56,
+    "chance_recall": 0.363
+   },
+   "TreeLite3D": {
+    "recall": 0.554,
+    "precision": 0.614,
+    "f1": 0.583,
+    "detections": 83,
+    "chance_recall": 0.495
+   },
+   "WS": {
+    "recall": 0.424,
+    "precision": 0.629,
+    "f1": 0.506,
+    "detections": 62,
+    "chance_recall": 0.395
+   }
+  },
+  "cham/1b": {
+   "site": "Chamrousse",
+   "area_m2": 716.8,
+   "trees": 36,
+   "stems_per_ha": 502,
+   "returns_per_m2": 44.6,
+   "nearest_stem_m": 2.34,
+   "SAT": {
+    "recall": 0.75,
+    "precision": 0.794,
+    "f1": 0.771,
+    "detections": 34,
+    "chance_recall": 0.598
+   },
+   "AMS3D": {
+    "recall": 0.639,
+    "precision": 0.793,
+    "f1": 0.708,
+    "detections": 29,
+    "chance_recall": 0.542
+   },
+   "FF3D": {
+    "recall": 0.444,
+    "precision": 0.889,
+    "f1": 0.593,
+    "detections": 18,
+    "chance_recall": 0.371
+   },
+   "TreeLite3D": {
+    "recall": 0.583,
+    "precision": 0.75,
+    "f1": 0.656,
+    "detections": 28,
+    "chance_recall": 0.526
+   },
+   "WS": {
+    "recall": 0.528,
+    "precision": 0.826,
+    "f1": 0.644,
+    "detections": 23,
+    "chance_recall": 0.45
+   }
+  },
+  "cham/2": {
+   "site": "Chamrousse",
+   "area_m2": 2531.3,
+   "trees": 144,
+   "stems_per_ha": 569,
+   "returns_per_m2": 37.0,
+   "nearest_stem_m": 1.82,
+   "SAT": {
+    "recall": 0.604,
+    "precision": 0.906,
+    "f1": 0.725,
+    "detections": 96,
+    "chance_recall": 0.477
+   },
+   "AMS3D": {
+    "recall": 0.493,
+    "precision": 0.947,
+    "f1": 0.648,
+    "detections": 75,
+    "chance_recall": 0.394
+   },
+   "FF3D": {
+    "recall": 0.562,
+    "precision": 0.9,
+    "f1": 0.692,
+    "detections": 90,
+    "chance_recall": 0.454
+   },
+   "TreeLite3D": {
+    "recall": 0.361,
+    "precision": 0.912,
+    "f1": 0.517,
+    "detections": 57,
+    "chance_recall": 0.309
+   },
+   "WS": {
+    "recall": 0.333,
+    "precision": 1.0,
+    "f1": 0.5,
+    "detections": 48,
+    "chance_recall": 0.263
+   }
+  },
+  "cham/3": {
+   "site": "Chamrousse",
+   "area_m2": 2305.1,
+   "trees": 92,
+   "stems_per_ha": 399,
+   "returns_per_m2": 49.0,
+   "nearest_stem_m": 1.73,
+   "SAT": {
+    "recall": 0.837,
+    "precision": 0.762,
+    "f1": 0.798,
+    "detections": 101,
+    "chance_recall": 0.577
+   },
+   "AMS3D": {
+    "recall": 0.793,
+    "precision": 0.802,
+    "f1": 0.798,
+    "detections": 91,
+    "chance_recall": 0.539
+   },
+   "FF3D": {
+    "recall": 0.717,
+    "precision": 0.835,
+    "f1": 0.772,
+    "detections": 79,
+    "chance_recall": 0.485
+   },
+   "TreeLite3D": {
+    "recall": 0.739,
+    "precision": 0.602,
+    "f1": 0.663,
+    "detections": 113,
+    "chance_recall": 0.618
+   },
+   "WS": {
+    "recall": 0.576,
+    "precision": 0.964,
+    "f1": 0.721,
+    "detections": 55,
+    "chance_recall": 0.366
+   }
+  },
+  "cham/3b": {
+   "site": "Chamrousse",
+   "area_m2": 478.6,
+   "trees": 39,
+   "stems_per_ha": 815,
+   "returns_per_m2": 70.6,
+   "nearest_stem_m": 1.13,
+   "SAT": {
+    "recall": 0.744,
+    "precision": 0.879,
+    "f1": 0.806,
+    "detections": 33,
+    "chance_recall": 0.601
+   },
+   "AMS3D": {
+    "recall": 0.718,
+    "precision": 0.933,
+    "f1": 0.812,
+    "detections": 30,
+    "chance_recall": 0.549
+   },
+   "FF3D": {
+    "recall": 0.667,
+    "precision": 0.812,
+    "f1": 0.732,
+    "detections": 32,
+    "chance_recall": 0.583
+   },
+   "TreeLite3D": {
+    "recall": 0.59,
+    "precision": 0.92,
+    "f1": 0.719,
+    "detections": 25,
+    "chance_recall": 0.492
+   },
+   "WS": {
+    "recall": 0.359,
+    "precision": 1.0,
+    "f1": 0.528,
+    "detections": 14,
+    "chance_recall": 0.292
+   }
+  },
+  "cham/4": {
+   "site": "Chamrousse",
+   "area_m2": 2273.6,
+   "trees": 119,
+   "stems_per_ha": 523,
+   "returns_per_m2": 36.1,
+   "nearest_stem_m": 1.6,
+   "SAT": {
+    "recall": 0.773,
+    "precision": 0.893,
+    "f1": 0.829,
+    "detections": 103,
+    "chance_recall": 0.441
+   },
+   "AMS3D": {
+    "recall": 0.697,
+    "precision": 0.883,
+    "f1": 0.779,
+    "detections": 94,
+    "chance_recall": 0.416
+   },
+   "FF3D": {
+    "recall": 0.613,
+    "precision": 0.948,
+    "f1": 0.745,
+    "detections": 77,
+    "chance_recall": 0.346
+   },
+   "TreeLite3D": {
+    "recall": 0.387,
+    "precision": 0.939,
+    "f1": 0.548,
+    "detections": 49,
+    "chance_recall": 0.24
+   },
+   "WS": {
+    "recall": 0.479,
+    "precision": 0.934,
+    "f1": 0.633,
+    "detections": 61,
+    "chance_recall": 0.293
+   }
+  },
+  "cham/Premol": {
+   "site": "Chamrousse",
+   "area_m2": 8100.9,
+   "trees": 372,
+   "stems_per_ha": 459,
+   "returns_per_m2": 40.9,
+   "nearest_stem_m": 2.05,
+   "SAT": {
+    "recall": 0.726,
+    "precision": 0.826,
+    "f1": 0.773,
+    "detections": 327,
+    "chance_recall": 0.561
+   },
+   "AMS3D": {
+    "recall": 0.653,
+    "precision": 0.841,
+    "f1": 0.735,
+    "detections": 289,
+    "chance_recall": 0.513
+   },
+   "FF3D": {
+    "recall": 0.659,
+    "precision": 0.86,
+    "f1": 0.746,
+    "detections": 285,
+    "chance_recall": 0.509
+   },
+   "TreeLite3D": {
+    "recall": 0.487,
+    "precision": 0.761,
+    "f1": 0.593,
+    "detections": 238,
+    "chance_recall": 0.442
+   },
+   "WS": {
+    "recall": 0.419,
+    "precision": 0.969,
+    "f1": 0.585,
+    "detections": 161,
+    "chance_recall": 0.318
+   }
+  },
+  "pell/p1": {
+   "site": "Pellizzano",
+   "area_m2": 533.2,
+   "trees": 51,
+   "stems_per_ha": 956,
+   "returns_per_m2": 93.0,
+   "nearest_stem_m": 1.5,
+   "SAT": {
+    "recall": 0.431,
+    "precision": 1.0,
+    "f1": 0.603,
+    "detections": 22,
+    "chance_recall": 0.365
+   },
+   "AMS3D": {
+    "recall": 0.627,
+    "precision": 0.821,
+    "f1": 0.711,
+    "detections": 39,
+    "chance_recall": 0.593
+   },
+   "FF3D": {
+    "recall": 0.471,
+    "precision": 0.889,
+    "f1": 0.615,
+    "detections": 27,
+    "chance_recall": 0.441
+   },
+   "TreeLite3D": {
+    "recall": 0.569,
+    "precision": 0.806,
+    "f1": 0.667,
+    "detections": 36,
+    "chance_recall": 0.559
+   },
+   "WS": {
+    "recall": 0.216,
+    "precision": 1.0,
+    "f1": 0.355,
+    "detections": 11,
+    "chance_recall": 0.193
+   }
+  },
+  "pell/p2": {
+   "site": "Pellizzano",
+   "area_m2": 631.8,
+   "trees": 71,
+   "stems_per_ha": 1124,
+   "returns_per_m2": 90.8,
+   "nearest_stem_m": 1.35,
+   "SAT": {
+    "recall": 0.437,
+    "precision": 0.939,
+    "f1": 0.596,
+    "detections": 33,
+    "chance_recall": 0.375
+   },
+   "AMS3D": {
+    "recall": 0.423,
+    "precision": 0.938,
+    "f1": 0.583,
+    "detections": 32,
+    "chance_recall": 0.364
+   },
+   "FF3D": {
+    "recall": 0.493,
+    "precision": 0.972,
+    "f1": 0.654,
+    "detections": 36,
+    "chance_recall": 0.41
+   },
+   "TreeLite3D": {
+    "recall": 0.437,
+    "precision": 0.816,
+    "f1": 0.569,
+    "detections": 38,
+    "chance_recall": 0.426
+   },
+   "WS": {
+    "recall": 0.254,
+    "precision": 1.0,
+    "f1": 0.404,
+    "detections": 18,
+    "chance_recall": 0.213
+   }
+  },
+  "pell/p3": {
+   "site": "Pellizzano",
+   "area_m2": 611.0,
+   "trees": 35,
+   "stems_per_ha": 573,
+   "returns_per_m2": 122.2,
+   "nearest_stem_m": 2.4,
+   "SAT": {
+    "recall": 0.8,
+    "precision": 0.8,
+    "f1": 0.8,
+    "detections": 35,
+    "chance_recall": 0.649
+   },
+   "AMS3D": {
+    "recall": 0.771,
+    "precision": 0.771,
+    "f1": 0.771,
+    "detections": 35,
+    "chance_recall": 0.65
+   },
+   "FF3D": {
+    "recall": 0.771,
+    "precision": 0.9,
+    "f1": 0.831,
+    "detections": 30,
+    "chance_recall": 0.587
+   },
+   "TreeLite3D": {
+    "recall": 0.657,
+    "precision": 0.676,
+    "f1": 0.667,
+    "detections": 34,
+    "chance_recall": 0.644
+   },
+   "WS": {
+    "recall": 0.457,
+    "precision": 1.0,
+    "f1": 0.627,
+    "detections": 16,
+    "chance_recall": 0.36
+   }
+  },
+  "pell/p4": {
+   "site": "Pellizzano",
+   "area_m2": 383.4,
+   "trees": 11,
+   "stems_per_ha": 287,
+   "returns_per_m2": 94.9,
+   "nearest_stem_m": 3.81,
+   "SAT": {
+    "recall": 1.0,
+    "precision": 0.688,
+    "f1": 0.815,
+    "detections": 16,
+    "chance_recall": 0.591
+   },
+   "AMS3D": {
+    "recall": 1.0,
+    "precision": 0.846,
+    "f1": 0.917,
+    "detections": 13,
+    "chance_recall": 0.52
+   },
+   "FF3D": {
+    "recall": 0.909,
+    "precision": 0.526,
+    "f1": 0.667,
+    "detections": 19,
+    "chance_recall": 0.641
+   },
+   "TreeLite3D": {
+    "recall": 0.636,
+    "precision": 0.7,
+    "f1": 0.667,
+    "detections": 10,
+    "chance_recall": 0.423
+   },
+   "WS": {
+    "recall": 0.727,
+    "precision": 1.0,
+    "f1": 0.842,
+    "detections": 8,
+    "chance_recall": 0.36
+   }
+  },
+  "pell/p5": {
+   "site": "Pellizzano",
+   "area_m2": 532.6,
+   "trees": 21,
+   "stems_per_ha": 394,
+   "returns_per_m2": 172.9,
+   "nearest_stem_m": 3.32,
+   "SAT": {
+    "recall": 0.857,
+    "precision": 1.0,
+    "f1": 0.923,
+    "detections": 18,
+    "chance_recall": 0.559
+   },
+   "AMS3D": {
+    "recall": 0.952,
+    "precision": 0.833,
+    "f1": 0.889,
+    "detections": 24,
+    "chance_recall": 0.659
+   },
+   "FF3D": {
+    "recall": 1.0,
+    "precision": 0.84,
+    "f1": 0.913,
+    "detections": 25,
+    "chance_recall": 0.679
+   },
+   "TreeLite3D": {
+    "recall": 0.762,
+    "precision": 0.432,
+    "f1": 0.552,
+    "detections": 37,
+    "chance_recall": 0.829
+   },
+   "WS": {
+    "recall": 0.714,
+    "precision": 1.0,
+    "f1": 0.833,
+    "detections": 15,
+    "chance_recall": 0.484
+   }
+  },
+  "pell/p6": {
+   "site": "Pellizzano",
+   "area_m2": 677.8,
+   "trees": 55,
+   "stems_per_ha": 811,
+   "returns_per_m2": 98.0,
+   "nearest_stem_m": 1.93,
+   "SAT": {
+    "recall": 0.691,
+    "precision": 0.95,
+    "f1": 0.8,
+    "detections": 40,
+    "chance_recall": 0.6
+   },
+   "AMS3D": {
+    "recall": 0.727,
+    "precision": 1.0,
+    "f1": 0.842,
+    "detections": 40,
+    "chance_recall": 0.595
+   },
+   "FF3D": {
+    "recall": 0.618,
+    "precision": 0.944,
+    "f1": 0.747,
+    "detections": 36,
+    "chance_recall": 0.546
+   },
+   "TreeLite3D": {
+    "recall": 0.691,
+    "precision": 0.745,
+    "f1": 0.717,
+    "detections": 51,
+    "chance_recall": 0.708
+   },
+   "WS": {
+    "recall": 0.4,
+    "precision": 1.0,
+    "f1": 0.571,
+    "detections": 22,
+    "chance_recall": 0.363
+   }
+  },
+  "pell/p7": {
+   "site": "Pellizzano",
+   "area_m2": 635.1,
+   "trees": 39,
+   "stems_per_ha": 614,
+   "returns_per_m2": 107.9,
+   "nearest_stem_m": 1.23,
+   "SAT": {
+    "recall": 0.359,
+    "precision": 0.875,
+    "f1": 0.509,
+    "detections": 16,
+    "chance_recall": 0.28
+   },
+   "AMS3D": {
+    "recall": 0.41,
+    "precision": 0.842,
+    "f1": 0.552,
+    "detections": 19,
+    "chance_recall": 0.315
+   },
+   "FF3D": {
+    "recall": 0.462,
+    "precision": 0.857,
+    "f1": 0.6,
+    "detections": 21,
+    "chance_recall": 0.351
+   },
+   "TreeLite3D": {
+    "recall": 0.641,
+    "precision": 0.781,
+    "f1": 0.704,
+    "detections": 32,
+    "chance_recall": 0.475
+   },
+   "WS": {
+    "recall": 0.282,
+    "precision": 1.0,
+    "f1": 0.44,
+    "detections": 11,
+    "chance_recall": 0.194
+   }
+  },
+  "pell/p8": {
+   "site": "Pellizzano",
+   "area_m2": 774.8,
+   "trees": 85,
+   "stems_per_ha": 1097,
+   "returns_per_m2": 134.2,
+   "nearest_stem_m": 1.52,
+   "SAT": {
+    "recall": 0.518,
+    "precision": 1.0,
+    "f1": 0.682,
+    "detections": 44,
+    "chance_recall": 0.473
+   },
+   "AMS3D": {
+    "recall": 0.529,
+    "precision": 0.938,
+    "f1": 0.677,
+    "detections": 48,
+    "chance_recall": 0.506
+   },
+   "FF3D": {
+    "recall": 0.471,
+    "precision": 0.976,
+    "f1": 0.635,
+    "detections": 41,
+    "chance_recall": 0.443
+   },
+   "TreeLite3D": {
+    "recall": 0.729,
+    "precision": 0.765,
+    "f1": 0.747,
+    "detections": 81,
+    "chance_recall": 0.747
+   },
+   "WS": {
+    "recall": 0.259,
+    "precision": 1.0,
+    "f1": 0.411,
+    "detections": 22,
+    "chance_recall": 0.248
+   }
+  },
+  "pell/p9": {
+   "site": "Pellizzano",
+   "area_m2": 503.1,
+   "trees": 25,
+   "stems_per_ha": 497,
+   "returns_per_m2": 122.7,
+   "nearest_stem_m": 2.79,
+   "SAT": {
+    "recall": 0.8,
+    "precision": 0.833,
+    "f1": 0.816,
+    "detections": 24,
+    "chance_recall": 0.615
+   },
+   "AMS3D": {
+    "recall": 0.8,
+    "precision": 0.87,
+    "f1": 0.833,
+    "detections": 23,
+    "chance_recall": 0.605
+   },
+   "FF3D": {
+    "recall": 0.88,
+    "precision": 0.846,
+    "f1": 0.863,
+    "detections": 26,
+    "chance_recall": 0.65
+   },
+   "TreeLite3D": {
+    "recall": 0.64,
+    "precision": 0.8,
+    "f1": 0.711,
+    "detections": 20,
+    "chance_recall": 0.54
+   },
+   "WS": {
+    "recall": 0.36,
+    "precision": 1.0,
+    "f1": 0.529,
+    "detections": 9,
+    "chance_recall": 0.279
+   }
+  },
+  "pell/p10": {
+   "site": "Pellizzano",
+   "area_m2": 293.8,
+   "trees": 8,
+   "stems_per_ha": 272,
+   "returns_per_m2": 138.6,
+   "nearest_stem_m": 4.36,
+   "SAT": {
+    "recall": 0.625,
+    "precision": 1.0,
+    "f1": 0.769,
+    "detections": 5,
+    "chance_recall": 0.297
+   },
+   "AMS3D": {
+    "recall": 0.625,
+    "precision": 0.5,
+    "f1": 0.556,
+    "detections": 10,
+    "chance_recall": 0.495
+   },
+   "FF3D": {
+    "recall": 0.625,
+    "precision": 0.5,
+    "f1": 0.556,
+    "detections": 10,
+    "chance_recall": 0.512
+   },
+   "TreeLite3D": {
+    "recall": 0.875,
+    "precision": 0.333,
+    "f1": 0.483,
+    "detections": 21,
+    "chance_recall": 0.784
+   },
+   "WS": {
+    "recall": 0.625,
+    "precision": 1.0,
+    "f1": 0.769,
+    "detections": 5,
+    "chance_recall": 0.297
+   }
+  },
+  "pell/p11": {
+   "site": "Pellizzano",
+   "area_m2": 616.0,
+   "trees": 33,
+   "stems_per_ha": 536,
+   "returns_per_m2": 122.0,
+   "nearest_stem_m": 2.27,
+   "SAT": {
+    "recall": 0.667,
+    "precision": 0.917,
+    "f1": 0.772,
+    "detections": 24,
+    "chance_recall": 0.502
+   },
+   "AMS3D": {
+    "recall": 0.606,
+    "precision": 0.952,
+    "f1": 0.741,
+    "detections": 21,
+    "chance_recall": 0.444
+   },
+   "FF3D": {
+    "recall": 0.636,
+    "precision": 1.0,
+    "f1": 0.778,
+    "detections": 21,
+    "chance_recall": 0.446
+   },
+   "TreeLite3D": {
+    "recall": 0.788,
+    "precision": 0.634,
+    "f1": 0.703,
+    "detections": 41,
+    "chance_recall": 0.706
+   },
+   "WS": {
+    "recall": 0.455,
+    "precision": 1.0,
+    "f1": 0.625,
+    "detections": 15,
+    "chance_recall": 0.335
+   }
+  },
+  "pell/p12": {
+   "site": "Pellizzano",
+   "area_m2": 561.0,
+   "trees": 21,
+   "stems_per_ha": 374,
+   "returns_per_m2": 94.8,
+   "nearest_stem_m": 3.81,
+   "SAT": {
+    "recall": 1.0,
+    "precision": 0.84,
+    "f1": 0.913,
+    "detections": 25,
+    "chance_recall": 0.628
+   },
+   "AMS3D": {
+    "recall": 0.81,
+    "precision": 0.773,
+    "f1": 0.791,
+    "detections": 22,
+    "chance_recall": 0.58
+   },
+   "FF3D": {
+    "recall": 1.0,
+    "precision": 0.677,
+    "f1": 0.808,
+    "detections": 31,
+    "chance_recall": 0.715
+   },
+   "TreeLite3D": {
+    "recall": 0.81,
+    "precision": 0.515,
+    "f1": 0.63,
+    "detections": 33,
+    "chance_recall": 0.746
+   },
+   "WS": {
+    "recall": 0.524,
+    "precision": 1.0,
+    "f1": 0.688,
+    "detections": 11,
+    "chance_recall": 0.339
+   }
+  },
+  "pell/p13": {
+   "site": "Pellizzano",
+   "area_m2": 627.9,
+   "trees": 33,
+   "stems_per_ha": 526,
+   "returns_per_m2": 110.3,
+   "nearest_stem_m": 3.18,
+   "SAT": {
+    "recall": 0.667,
+    "precision": 0.846,
+    "f1": 0.746,
+    "detections": 26,
+    "chance_recall": 0.529
+   },
+   "AMS3D": {
+    "recall": 0.758,
+    "precision": 0.833,
+    "f1": 0.794,
+    "detections": 30,
+    "chance_recall": 0.568
+   },
+   "FF3D": {
+    "recall": 0.636,
+    "precision": 0.808,
+    "f1": 0.712,
+    "detections": 26,
+    "chance_recall": 0.52
+   },
+   "TreeLite3D": {
+    "recall": 0.788,
+    "precision": 0.433,
+    "f1": 0.559,
+    "detections": 60,
+    "chance_recall": 0.822
+   },
+   "WS": {
+    "recall": 0.485,
+    "precision": 1.0,
+    "f1": 0.653,
+    "detections": 16,
+    "chance_recall": 0.357
+   }
+  },
+  "pell/p14": {
+   "site": "Pellizzano",
+   "area_m2": 521.8,
+   "trees": 20,
+   "stems_per_ha": 383,
+   "returns_per_m2": 160.9,
+   "nearest_stem_m": 3.22,
+   "SAT": {
+    "recall": 0.85,
+    "precision": 0.739,
+    "f1": 0.791,
+    "detections": 23,
+    "chance_recall": 0.611
+   },
+   "AMS3D": {
+    "recall": 0.85,
+    "precision": 0.63,
+    "f1": 0.723,
+    "detections": 27,
+    "chance_recall": 0.67
+   },
+   "FF3D": {
+    "recall": 0.9,
+    "precision": 0.667,
+    "f1": 0.766,
+    "detections": 27,
+    "chance_recall": 0.669
+   },
+   "TreeLite3D": {
+    "recall": 0.8,
+    "precision": 0.64,
+    "f1": 0.711,
+    "detections": 25,
+    "chance_recall": 0.648
+   },
+   "WS": {
+    "recall": 0.5,
+    "precision": 0.909,
+    "f1": 0.645,
+    "detections": 11,
+    "chance_recall": 0.354
+   }
+  },
+  "pell/p15": {
+   "site": "Pellizzano",
+   "area_m2": 721.0,
+   "trees": 35,
+   "stems_per_ha": 485,
+   "returns_per_m2": 108.5,
+   "nearest_stem_m": 3.0,
+   "SAT": {
+    "recall": 0.743,
+    "precision": 0.839,
+    "f1": 0.788,
+    "detections": 31,
+    "chance_recall": 0.58
+   },
+   "AMS3D": {
+    "recall": 0.686,
+    "precision": 0.649,
+    "f1": 0.667,
+    "detections": 37,
+    "chance_recall": 0.65
+   },
+   "FF3D": {
+    "recall": 0.714,
+    "precision": 0.781,
+    "f1": 0.746,
+    "detections": 32,
+    "chance_recall": 0.598
+   },
+   "TreeLite3D": {
+    "recall": 0.829,
+    "precision": 0.509,
+    "f1": 0.63,
+    "detections": 57,
+    "chance_recall": 0.805
+   },
+   "WS": {
+    "recall": 0.4,
+    "precision": 0.933,
+    "f1": 0.56,
+    "detections": 15,
+    "chance_recall": 0.329
+   }
+  }
+ },
+ "pooled": {
+  "Chamrousse": {
+   "SAT": {
+    "recall": 0.707,
+    "precision": 0.817,
+    "f1": 0.758,
+    "excess": 0.179,
+    "chance": 0.528,
+    "recall_ci": [
+     0.63,
+     0.765
+    ],
+    "precision_ci": [
+     0.739,
+     0.869
+    ],
+    "f1_ci": [
+     0.692,
+     0.799
+    ],
+    "excess_ci": [
+     0.123,
+     0.25
+    ],
+    "stratified": false
+   },
+   "AMS3D": {
+    "recall": 0.643,
+    "precision": 0.833,
+    "f1": 0.726,
+    "excess": 0.159,
+    "chance": 0.485,
+    "recall_ci": [
+     0.569,
+     0.709
+    ],
+    "precision_ci": [
+     0.762,
+     0.888
+    ],
+    "f1_ci": [
+     0.673,
+     0.766
+    ],
+    "excess_ci": [
+     0.117,
+     0.222
+    ],
+    "stratified": false
+   },
+   "FF3D": {
+    "recall": 0.6,
+    "precision": 0.841,
+    "f1": 0.7,
+    "excess": 0.141,
+    "chance": 0.459,
+    "recall_ci": [
+     0.479,
+     0.657
+    ],
+    "precision_ci": [
+     0.733,
+     0.898
+    ],
+    "f1_ci": [
+     0.583,
+     0.746
+    ],
+    "excess_ci": [
+     0.064,
+     0.199
+    ],
+    "stratified": false
+   },
+   "TreeLite3D": {
+    "recall": 0.494,
+    "precision": 0.745,
+    "f1": 0.594,
+    "excess": 0.071,
+    "chance": 0.423,
+    "recall_ci": [
+     0.424,
+     0.598
+    ],
+    "precision_ci": [
+     0.66,
+     0.846
+    ],
+    "f1_ci": [
+     0.559,
+     0.637
+    ],
+    "excess_ci": [
+     0.05,
+     0.116
+    ],
+    "stratified": false
+   },
+   "WS": {
+    "recall": 0.432,
+    "precision": 0.91,
+    "f1": 0.586,
+    "excess": 0.109,
+    "chance": 0.323,
+    "recall_ci": [
+     0.383,
+     0.496
+    ],
+    "precision_ci": [
+     0.785,
+     0.973
+    ],
+    "f1_ci": [
+     0.532,
+     0.639
+    ],
+    "excess_ci": [
+     0.07,
+     0.155
+    ],
+    "stratified": false
+   }
+  },
+  "Pellizzano": {
+   "SAT": {
+    "recall": 0.624,
+    "precision": 0.887,
+    "f1": 0.733,
+    "excess": 0.131,
+    "chance": 0.493,
+    "recall_ci": [
+     0.542,
+     0.734
+    ],
+    "precision_ci": [
+     0.839,
+     0.93
+    ],
+    "f1_ci": [
+     0.68,
+     0.793
+    ],
+    "excess_ci": [
+     0.095,
+     0.19
+    ],
+    "stratified": false
+   },
+   "AMS3D": {
+    "recall": 0.643,
+    "precision": 0.831,
+    "f1": 0.725,
+    "excess": 0.114,
+    "chance": 0.529,
+    "recall_ci": [
+     0.567,
+     0.74
+    ],
+    "precision_ci": [
+     0.766,
+     0.889
+    ],
+    "f1_ci": [
+     0.678,
+     0.778
+    ],
+    "excess_ci": [
+     0.076,
+     0.168
+    ],
+    "stratified": false
+   },
+   "FF3D": {
+    "recall": 0.63,
+    "precision": 0.838,
+    "f1": 0.719,
+    "excess": 0.121,
+    "chance": 0.509,
+    "recall_ci": [
+     0.558,
+     0.739
+    ],
+    "precision_ci": [
+     0.766,
+     0.899
+    ],
+    "f1_ci": [
+     0.676,
+     0.77
+    ],
+    "excess_ci": [
+     0.083,
+     0.176
+    ],
+    "stratified": false
+   },
+   "TreeLite3D": {
+    "recall": 0.678,
+    "precision": 0.639,
+    "f1": 0.658,
+    "excess": 0.031,
+    "chance": 0.647,
+    "recall_ci": [
+     0.607,
+     0.746
+    ],
+    "precision_ci": [
+     0.557,
+     0.715
+    ],
+    "f1_ci": [
+     0.615,
+     0.694
+    ],
+    "excess_ci": [
+     0.004,
+     0.07
+    ],
+    "stratified": false
+   },
+   "WS": {
+    "recall": 0.374,
+    "precision": 0.99,
+    "f1": 0.543,
+    "excess": 0.082,
+    "chance": 0.291,
+    "recall_ci": [
+     0.317,
+     0.456
+    ],
+    "precision_ci": [
+     0.976,
+     1.0
+    ],
+    "f1_ci": [
+     0.48,
+     0.625
+    ],
+    "excess_ci": [
+     0.053,
+     0.127
+    ],
+    "stratified": false
+   }
+  },
+  "Both sites": {
+   "SAT": {
+    "recall": 0.676,
+    "precision": 0.84,
+    "f1": 0.749,
+    "excess": 0.161,
+    "chance": 0.515,
+    "recall_ci": [
+     0.612,
+     0.729
+    ],
+    "precision_ci": [
+     0.798,
+     0.881
+    ],
+    "f1_ci": [
+     0.703,
+     0.78
+    ],
+    "excess_ci": [
+     0.122,
+     0.205
+    ],
+    "stratified": true
+   },
+   "AMS3D": {
+    "recall": 0.643,
+    "precision": 0.832,
+    "f1": 0.726,
+    "excess": 0.142,
+    "chance": 0.501,
+    "recall_ci": [
+     0.591,
+     0.693
+    ],
+    "precision_ci": [
+     0.787,
+     0.875
+    ],
+    "f1_ci": [
+     0.69,
+     0.756
+    ],
+    "excess_ci": [
+     0.109,
+     0.179
+    ],
+    "stratified": true
+   },
+   "FF3D": {
+    "recall": 0.611,
+    "precision": 0.84,
+    "f1": 0.707,
+    "excess": 0.133,
+    "chance": 0.478,
+    "recall_ci": [
+     0.542,
+     0.662
+    ],
+    "precision_ci": [
+     0.776,
+     0.883
+    ],
+    "f1_ci": [
+     0.643,
+     0.744
+    ],
+    "excess_ci": [
+     0.089,
+     0.171
+    ],
+    "stratified": true
+   },
+   "TreeLite3D": {
+    "recall": 0.564,
+    "precision": 0.693,
+    "f1": 0.622,
+    "excess": 0.056,
+    "chance": 0.508,
+    "recall_ci": [
+     0.513,
+     0.645
+    ],
+    "precision_ci": [
+     0.631,
+     0.749
+    ],
+    "f1_ci": [
+     0.595,
+     0.655
+    ],
+    "excess_ci": [
+     0.038,
+     0.082
+    ],
+    "stratified": true
+   },
+   "WS": {
+    "recall": 0.41,
+    "precision": 0.936,
+    "f1": 0.57,
+    "excess": 0.099,
+    "chance": 0.311,
+    "recall_ci": [
+     0.369,
+     0.452
+    ],
+    "precision_ci": [
+     0.857,
+     0.98
+    ],
+    "f1_ci": [
+     0.528,
+     0.61
+    ],
+    "excess_ci": [
+     0.072,
+     0.128
+    ],
+    "stratified": true
+   }
+  }
+ },
+ "plot_average": {
+  "Chamrousse": {
+   "SAT": {
+    "recall": 0.711,
+    "precision": 0.812,
+    "f1": 0.755
+   },
+   "AMS3D": {
+    "recall": 0.654,
+    "precision": 0.837,
+    "f1": 0.729
+   },
+   "FF3D": {
+    "recall": 0.568,
+    "precision": 0.823,
+    "f1": 0.667
+   },
+   "TreeLite3D": {
+    "recall": 0.529,
+    "precision": 0.785,
+    "f1": 0.611
+   },
+   "WS": {
+    "recall": 0.445,
+    "precision": 0.903,
+    "f1": 0.588
+   }
+  },
+  "Pellizzano": {
+   "SAT": {
+    "recall": 0.696,
+    "precision": 0.884,
+    "f1": 0.755
+   },
+   "AMS3D": {
+    "recall": 0.705,
+    "precision": 0.813,
+    "f1": 0.736
+   },
+   "FF3D": {
+    "recall": 0.706,
+    "precision": 0.812,
+    "f1": 0.726
+   },
+   "TreeLite3D": {
+    "recall": 0.71,
+    "precision": 0.639,
+    "f1": 0.648
+   },
+   "WS": {
+    "recall": 0.444,
+    "precision": 0.989,
+    "f1": 0.597
+   }
+  },
+  "Both sites": {
+   "SAT": {
+    "recall": 0.701,
+    "precision": 0.861,
+    "f1": 0.755
+   },
+   "AMS3D": {
+    "recall": 0.689,
+    "precision": 0.821,
+    "f1": 0.734
+   },
+   "FF3D": {
+    "recall": 0.662,
+    "precision": 0.816,
+    "f1": 0.707
+   },
+   "TreeLite3D": {
+    "recall": 0.652,
+    "precision": 0.686,
+    "f1": 0.636
+   },
+   "WS": {
+    "recall": 0.444,
+    "precision": 0.962,
+    "f1": 0.594
+   }
+  }
+ },
+ "sat_minus": {
+  "Chamrousse": {
+   "AMS3D": {
+    "recall": 0.064,
+    "f1": 0.032,
+    "excess": 0.02,
+    "unstratified": {
+     "recall_ci": [
+      0.02,
+      0.089
+     ],
+     "f1_ci": [
+      -0.0,
+      0.052
+     ],
+     "excess_ci": [
+      -0.004,
+      0.034
+     ]
+    }
+   },
+   "FF3D": {
+    "recall": 0.107,
+    "f1": 0.058,
+    "excess": 0.038,
+    "unstratified": {
+     "recall_ci": [
+      0.07,
+      0.187
+     ],
+     "f1_ci": [
+      0.033,
+      0.12
+     ],
+     "excess_ci": [
+      0.021,
+      0.077
+     ]
+    }
+   },
+   "TreeLite3D": {
+    "recall": 0.213,
+    "f1": 0.163,
+    "excess": 0.107,
+    "unstratified": {
+     "recall_ci": [
+      0.096,
+      0.278
+     ],
+     "f1_ci": [
+      0.091,
+      0.209
+     ],
+     "excess_ci": [
+      0.059,
+      0.139
+     ]
+    }
+   },
+   "WS": {
+    "recall": 0.275,
+    "f1": 0.172,
+    "excess": 0.07,
+    "unstratified": {
+     "recall_ci": [
+      0.21,
+      0.305
+     ],
+     "f1_ci": [
+      0.122,
+      0.205
+     ],
+     "excess_ci": [
+      0.05,
+      0.102
+     ]
+    }
+   }
+  },
+  "Pellizzano": {
+   "AMS3D": {
+    "recall": -0.018,
+    "f1": 0.008,
+    "excess": 0.017,
+    "unstratified": {
+     "recall_ci": [
+      -0.066,
+      0.021
+     ],
+     "f1_ci": [
+      -0.022,
+      0.042
+     ],
+     "excess_ci": [
+      -0.005,
+      0.044
+     ]
+    }
+   },
+   "FF3D": {
+    "recall": -0.006,
+    "f1": 0.014,
+    "excess": 0.01,
+    "unstratified": {
+     "recall_ci": [
+      -0.042,
+      0.025
+     ],
+     "f1_ci": [
+      -0.016,
+      0.043
+     ],
+     "excess_ci": [
+      -0.008,
+      0.032
+     ]
+    }
+   },
+   "TreeLite3D": {
+    "recall": -0.053,
+    "f1": 0.075,
+    "excess": 0.1,
+    "unstratified": {
+     "recall_ci": [
+      -0.125,
+      0.03
+     ],
+     "f1_ci": [
+      0.011,
+      0.149
+     ],
+     "excess_ci": [
+      0.062,
+      0.151
+     ]
+    }
+   },
+   "WS": {
+    "recall": 0.25,
+    "f1": 0.19,
+    "excess": 0.049,
+    "unstratified": {
+     "recall_ci": [
+      0.204,
+      0.299
+     ],
+     "f1_ci": [
+      0.146,
+      0.224
+     ],
+     "excess_ci": [
+      0.032,
+      0.069
+     ]
+    }
+   }
+  },
+  "Both sites": {
+   "AMS3D": {
+    "recall": 0.033,
+    "f1": 0.023,
+    "excess": 0.019,
+    "unstratified": {
+     "recall_ci": [
+      -0.014,
+      0.06
+     ],
+     "f1_ci": [
+      -0.001,
+      0.041
+     ],
+     "excess_ci": [
+      0.003,
+      0.033
+     ]
+    },
+    "stratified": {
+     "recall_ci": [
+      -0.006,
+      0.057
+     ],
+     "f1_ci": [
+      -0.0,
+      0.041
+     ],
+     "excess_ci": [
+      0.004,
+      0.032
+     ]
+    }
+   },
+   "FF3D": {
+    "recall": 0.065,
+    "f1": 0.041,
+    "excess": 0.028,
+    "unstratified": {
+     "recall_ci": [
+      0.027,
+      0.102
+     ],
+     "f1_ci": [
+      0.02,
+      0.072
+     ],
+     "excess_ci": [
+      0.013,
+      0.049
+     ]
+    },
+    "stratified": {
+     "recall_ci": [
+      0.041,
+      0.096
+     ],
+     "f1_ci": [
+      0.025,
+      0.069
+     ],
+     "excess_ci": [
+      0.015,
+      0.046
+     ]
+    }
+   },
+   "TreeLite3D": {
+    "recall": 0.112,
+    "f1": 0.127,
+    "excess": 0.105,
+    "unstratified": {
+     "recall_ci": [
+      -0.015,
+      0.19
+     ],
+     "f1_ci": [
+      0.064,
+      0.17
+     ],
+     "excess_ci": [
+      0.074,
+      0.132
+     ]
+    },
+    "stratified": {
+     "recall_ci": [
+      0.008,
+      0.181
+     ],
+     "f1_ci": [
+      0.067,
+      0.17
+     ],
+     "excess_ci": [
+      0.072,
+      0.131
+     ]
+    }
+   },
+   "WS": {
+    "recall": 0.266,
+    "f1": 0.179,
+    "excess": 0.062,
+    "unstratified": {
+     "recall_ci": [
+      0.221,
+      0.293
+     ],
+     "f1_ci": [
+      0.147,
+      0.205
+     ],
+     "excess_ci": [
+      0.045,
+      0.081
+     ]
+    },
+    "stratified": {
+     "recall_ci": [
+      0.223,
+      0.293
+     ],
+     "f1_ci": [
+      0.146,
+      0.204
+     ],
+     "excess_ci": [
+      0.047,
+      0.081
+     ]
+    }
+   }
+  }
+ },
+ "strata": {
+  "Chamrousse": {
+   "dominant": {
+    "n": 481,
+    "SAT": {
+     "recall": 0.844,
+     "chance": 0.565,
+     "excess": 0.279
+    },
+    "AMS3D": {
+     "recall": 0.771,
+     "chance": 0.519,
+     "excess": 0.252
+    },
+    "FF3D": {
+     "recall": 0.715,
+     "chance": 0.498,
+     "excess": 0.218
+    },
+    "TreeLite3D": {
+     "recall": 0.649,
+     "chance": 0.47,
+     "excess": 0.179
+    },
+    "WS": {
+     "recall": 0.615,
+     "chance": 0.344,
+     "excess": 0.272
+    }
+   },
+   "intermediate": {
+    "n": 297,
+    "SAT": {
+     "recall": 0.579,
+     "chance": 0.484,
+     "excess": 0.096
+    },
+    "AMS3D": {
+     "recall": 0.519,
+     "chance": 0.438,
+     "excess": 0.08
+    },
+    "FF3D": {
+     "recall": 0.488,
+     "chance": 0.413,
+     "excess": 0.075
+    },
+    "TreeLite3D": {
+     "recall": 0.296,
+     "chance": 0.353,
+     "excess": -0.057
+    },
+    "WS": {
+     "recall": 0.212,
+     "chance": 0.29,
+     "excess": -0.078
+    }
+   },
+   "suppressed": {
+    "n": 116,
+    "SAT": {
+     "recall": 0.466,
+     "chance": 0.491,
+     "excess": -0.026
+    },
+    "AMS3D": {
+     "recall": 0.431,
+     "chance": 0.46,
+     "excess": -0.029
+    },
+    "FF3D": {
+     "recall": 0.405,
+     "chance": 0.414,
+     "excess": -0.009
+    },
+    "TreeLite3D": {
+     "recall": 0.362,
+     "chance": 0.408,
+     "excess": -0.046
+    },
+    "WS": {
+     "recall": 0.233,
+     "chance": 0.321,
+     "excess": -0.088
+    }
+   }
+  },
+  "Pellizzano": {
+   "dominant": {
+    "n": 367,
+    "SAT": {
+     "recall": 0.757,
+     "chance": 0.53,
+     "excess": 0.228
+    },
+    "AMS3D": {
+     "recall": 0.76,
+     "chance": 0.563,
+     "excess": 0.197
+    },
+    "FF3D": {
+     "recall": 0.768,
+     "chance": 0.55,
+     "excess": 0.218
+    },
+    "TreeLite3D": {
+     "recall": 0.747,
+     "chance": 0.678,
+     "excess": 0.069
+    },
+    "WS": {
+     "recall": 0.512,
+     "chance": 0.321,
+     "excess": 0.191
+    }
+   },
+   "intermediate": {
+    "n": 84,
+    "SAT": {
+     "recall": 0.488,
+     "chance": 0.449,
+     "excess": 0.039
+    },
+    "AMS3D": {
+     "recall": 0.476,
+     "chance": 0.497,
+     "excess": -0.021
+    },
+    "FF3D": {
+     "recall": 0.357,
+     "chance": 0.451,
+     "excess": -0.094
+    },
+    "TreeLite3D": {
+     "recall": 0.583,
+     "chance": 0.632,
+     "excess": -0.048
+    },
+    "WS": {
+     "recall": 0.095,
+     "chance": 0.244,
+     "excess": -0.149
+    }
+   },
+   "suppressed": {
+    "n": 92,
+    "SAT": {
+     "recall": 0.217,
+     "chance": 0.388,
+     "excess": -0.17
+    },
+    "AMS3D": {
+     "recall": 0.326,
+     "chance": 0.423,
+     "excess": -0.097
+    },
+    "FF3D": {
+     "recall": 0.326,
+     "chance": 0.398,
+     "excess": -0.072
+    },
+    "TreeLite3D": {
+     "recall": 0.489,
+     "chance": 0.538,
+     "excess": -0.049
+    },
+    "WS": {
+     "recall": 0.076,
+     "chance": 0.218,
+     "excess": -0.142
+    }
+   }
+  },
+  "Both sites": {
+   "dominant": {
+    "n": 848,
+    "SAT": {
+     "recall": 0.807,
+     "chance": 0.55,
+     "excess": 0.257
+    },
+    "AMS3D": {
+     "recall": 0.767,
+     "chance": 0.538,
+     "excess": 0.229
+    },
+    "FF3D": {
+     "recall": 0.738,
+     "chance": 0.52,
+     "excess": 0.218
+    },
+    "TreeLite3D": {
+     "recall": 0.691,
+     "chance": 0.56,
+     "excess": 0.131
+    },
+    "WS": {
+     "recall": 0.571,
+     "chance": 0.334,
+     "excess": 0.237
+    }
+   },
+   "intermediate": {
+    "n": 381,
+    "SAT": {
+     "recall": 0.559,
+     "chance": 0.476,
+     "excess": 0.083
+    },
+    "AMS3D": {
+     "recall": 0.509,
+     "chance": 0.451,
+     "excess": 0.058
+    },
+    "FF3D": {
+     "recall": 0.459,
+     "chance": 0.422,
+     "excess": 0.038
+    },
+    "TreeLite3D": {
+     "recall": 0.36,
+     "chance": 0.414,
+     "excess": -0.055
+    },
+    "WS": {
+     "recall": 0.186,
+     "chance": 0.28,
+     "excess": -0.093
+    }
+   },
+   "suppressed": {
+    "n": 208,
+    "SAT": {
+     "recall": 0.356,
+     "chance": 0.445,
+     "excess": -0.09
+    },
+    "AMS3D": {
+     "recall": 0.385,
+     "chance": 0.444,
+     "excess": -0.059
+    },
+    "FF3D": {
+     "recall": 0.37,
+     "chance": 0.407,
+     "excess": -0.037
+    },
+    "TreeLite3D": {
+     "recall": 0.418,
+     "chance": 0.466,
+     "excess": -0.047
+    },
+    "WS": {
+     "recall": 0.163,
+     "chance": 0.275,
+     "excess": -0.112
+    }
+   }
+  }
+ },
+ "treelite_leave_one_site_out": {
+  "chosen_on_chamrousse": "t5_p20",
+  "chosen_on_pellizzano": "t4_p30",
+  "both_sites": {
+   "recall": 0.601,
+   "precision": 0.595,
+   "f1": 0.598
+  }
+ }
+}

@@ -1,9 +1,8 @@
-"""Qualitative figure: two plots that show the inversion, seen from above.
+"""Qualitative figure: stems and detections of one plot of each site, seen from above.
 
-cham/4 is the sparsest plot (36 pts/m2) and it is where SegmentAnyTree gains most over
-TreeLite3D (0.773 against 0.387). pell/p8 is dense (134 pts/m2) and there it inverts
-(0.518 against 0.729). They are the two plots with the largest gap in each direction, not
-a convenient choice.
+cham/4 is where SegmentAnyTree gains most over TreeLite3D (0.773 against 0.387) and
+pell/p8 is where the order between them is reversed (0.518 against 0.729). They are the
+two plots with the largest gap in each direction, not a convenient choice.
 
 It is drawn with the same data and the same matching as the tables, read from
 trees.json, which is also what the viewer shows.

@@ -33,7 +33,7 @@ that score it read its stored output from `ams_port/out/` under `TREELEARN_DATA`
 analysis/   the evaluation: one protocol for all five methods
 modal/      inference runners for the three networks and the watershed baseline
 viewer/     exports of the per-plot reference used by the analysis, and a local viewer
-figures/    scripts that write the manuscript tables and two figures from results/
+figures/    scripts that write the manuscript tables and the plot maps
 results/    aggregated and per-plot numbers, no coordinates
 ```
 
